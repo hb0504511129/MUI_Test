@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>东风风行</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<link rel="stylesheet" href="../css/mui.min.css">
+		<script src="../js/mui.min.js"></script>
+		<script src="../js/app.js"></script>
+		<style>
+			html,
+			body {
+				background-color: #efeff4;
+			}
+			.mui-bar-nav~.mui-content {
+				padding: 0;
+			}
+			.mui-bar .mui-title {
+				right: 80px;
+				left: 80px;
+				/*background-color: #777777;*/
+			}
+			
+			.showBodyColor{
+				/*top: 20px;*/
+				padding-top: 0.3em;
+				margin-top: 0.2em;
+				background-color: #FF0000;
+			}
+		</style>
+		<script>
+			mui.init();
+		</script>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav" style="background-color: #777777;">
+			<button id="leftBtn" class="mui-btn mui-btn-link mui-btn-nav mui-pull-left ">
+				<span class="mui-icon mui-icon-left-nav"></span> 东风风行
+			</button>
+			<button id="rightBtn" class="mui-btn mui-btn-link mui-btn-nav mui-pull-right">
+				<!--这里写文字-->
+				<span id="rightBtn_span" class="mui-icon mui-icon-bars"></span>
+			</button>
+			<!--<h1 class="mui-title">Title</h1>-->
+		</header>
+
+		<article class="showBodyColor">
+
+			<h2>评论</h2>
+
+			<article>
+				<header>
+					<h3>评论者: XXX</h3>
+					<time datetime="2012-12-06T19:10">~1 hour ago</time>
+				</header>
+				<p>娃哈哈..</p>
+			</article>
+
+			<article>
+				<header>
+					<h3>评论者: XXX</h3>
+					<time datetime="2012-12-06T19:10">~1 hour ago</time>
+				</header>
+				<p>哈哈哈哈...</p>
+			</article>
+
+		</article>
+
+		
+	</body>
+
+</html>
