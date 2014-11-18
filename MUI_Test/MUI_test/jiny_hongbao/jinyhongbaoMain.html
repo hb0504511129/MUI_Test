@@ -12,9 +12,8 @@
 		<script src="../js/mui.min.js"></script>
 		<script src="../js/app.js"></script>
 		<style>
-			html,
 			body {
-				background-color: #efeff4;
+				background-color: #FF0000;
 			}
 			.mui-bar-nav~.mui-content {
 				padding: 0;
@@ -24,12 +23,15 @@
 				left: 80px;
 				/*background-color: #777777;*/
 			}
-			
-			.showBodyColor{
+			.showBodyColor {
 				/*top: 20px;*/
-				padding-top: 0.3em;
+				padding-top: 6em;
 				margin-top: 0.2em;
-				background-color: #FF0000;
+				/*background-color: #FF0000;*/
+			}
+			.but_center_color {
+				background-color: yellow;
+				border-radius:5px 5px 5px 5px;/*设置DIV对象盒子四个角5像素圆角效果*/
 			}
 		</style>
 		<script>
@@ -51,27 +53,52 @@
 
 		<article class="showBodyColor">
 
-			<h2>评论</h2>
-
 			<article>
 				<header>
-					<h3>评论者: XXX</h3>
-					<time datetime="2012-12-06T19:10">~1 hour ago</time>
+					<h3 style="text-align: center;">景逸S50</h3>
+					<br />
+					<h4 style="text-align: center;">欢乐红包免费抢</h4>
+
+					<br />
+					<br />
+					<br />
+					<br />
+
+					<!--<p style="background-color: #EFEFF4;">-->
+					<p style="-webkit-text-fill-color: #C0C0C0; text-align:center;">
+						11月7日——11月25日抢红包，
+						<br />快来参与吧。
+						<!--<time datetime="2012-12-06T19:10">~1 hour ago</time>-->
+					</p>
+
 				</header>
-				<p>娃哈哈..</p>
+
+				<br />
+				<br />
+				<br />
+				<br />
+				<section style="text-align: center;">
+					<button class="but_center_color">去抢红包</button>
+					<br />
+					<br />
+					<button class="but_center_color">活动规则</button>
+				</section>
+
+				<br />
+				<br />
 			</article>
 
-			<article>
+			<!--<article>
 				<header>
 					<h3>评论者: XXX</h3>
 					<time datetime="2012-12-06T19:10">~1 hour ago</time>
 				</header>
 				<p>哈哈哈哈...</p>
-			</article>
+			</article>-->
 
 		</article>
 
-		
+
 	</body>
 
 </html>
