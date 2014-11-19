@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>活动规则</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<link rel="stylesheet" href="../css/mui.min.css">
+		<script src="../js/mui.min.js"></script>
+		<script src="../js/app.js"></script>
+		<style>
+			body {
+				background-color: #FF0000;
+			}
+			.mui-bar-nav~.mui-content {
+				padding: 0;
+			}
+			.mui-bar .mui-title {
+				right: 80px;
+				left: 80px;
+				/*background-color: #777777;*/
+			}
+			.showBodyColor {
+				/*top: 20px;*/
+				padding-top: 6em;
+				margin-top: 0.2em;
+				/*background-color: #FF0000;*/
+			}
+			.title_page{
+				text-align: center;
+				-webkit-text-fill-color: #FFFF00;
+			}
+			.but_center_color {
+				background-color: yellow;
+				border-radius:5px 5px 5px 5px;/*设置DIV对象盒子四个角5像素圆角效果*/
+			}
+		</style>
+		<script>
+			mui.init();
+		</script>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav" style="background-color: #777777;">
+			<button id="leftBtn" class="mui-btn mui-btn-link mui-btn-nav mui-pull-left ">
+				<span class="mui-icon mui-icon-left-nav"></span> 东风风行
+			</button>
+			<button id="rightBtn" class="mui-btn mui-btn-link mui-btn-nav mui-pull-right">
+				<!--这里写文字-->
+				<span id="rightBtn_span" class="mui-icon mui-icon-bars"></span>
+			</button>
+			<!--<h1 class="mui-title">Title</h1>-->
+		</header>
+
+		<article class="showBodyColor">
+
+			<article>
+				<header>
+					<h3 class="title_page">景逸S50</h3>
+					<br />
+					<h4 class="title_page">欢乐红包免费抢</h4>
+
+					<br />
+					<br />
+				</header>
+
+				<div class="mui-content">
+    <div class="mui-card muiback" style="background-color: yellow;">
+        <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-hidden">cared
+                <div id="M_Toggle" class="mui-switch mui-active">
+                    <div class="mui-switch-handle"></div>
+                </div>
+            </li>
+            <li class="mui-table-view-divider">活动规则:</li>
+            <li class="mui-table-view-cell">1、每人每天有五次抢红包的机会，分享活动给一个朋友则可额外再获得一次资格，抢中奖品的粉丝将不能再参与游戏。</li>
+            <li class="mui-table-view-cell">2、中奖粉丝根据游戏页面提示填写正确的联系方式（姓名+手机号码+地址），同时粉丝可以在活动页面查看自己的中奖记录。</li>
+            <li class="mui-table-view-cell">3、红包活动结束后五个工作日内，工作人员将核实中奖名单并在微信公布。</li>
+            <li class="mui-table-view-cell">4、最终活动解释权归东风风行所有，活动如有变更，请以现场公告为准！</li>
+            <!--<li class="mui-table-view-divider">两行列表</li>
+            <li class="mui-table-view-cell"><span class="mui-ellipsis-2">我的内容比较多，但也不会超过两行，因为加了.mui-ellipsis-2,mui会自动截断，变成省略号</span></li>
+            <li class="mui-table-view-cell"><span class="mui-ellipsis-2">我的内容比较多，但也不会超过两行，因为加了.mui-ellipsis-2,mui会自动截断，变成省略号</span></li>
+            <li class="mui-table-view-cell"><span class="mui-ellipsis-2">我的内容比较多，但也不会超过两行，因为加了.mui-ellipsis-2,mui会自动截断，变成省略号</span></li>-->
+        </ul>
+    </div>
+</div>
+
+		</article>
+
+
+	</body>
+
+</html>
