@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>打开红包</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<link rel="stylesheet" href="../css/mui.min.css">
+		<script src="../js/mui.min.js"></script>
+		<script src="../js/app.js"></script>
+		<style>
+			body {
+				background-color: #FF0000;
+			}
+			.mui-bar-nav~.mui-content {
+				padding: 0;
+			}
+			.mui-bar .mui-title {
+				right: 80px;
+				left: 80px;
+				/*background-color: #777777;*/
+			}
+			.showBodyColor {
+				/*top: 20px;*/
+				
+				padding-top: 6em;
+				margin-top: 0.2em;
+				/*background-color: #FF0000;*/
+			}
+			.title_page {
+				text-align: center;
+				-webkit-text-fill-color: #FFFF00;
+			}
+			.but_center_color {
+				background-color: yellow;
+				border-radius:5px 5px 5px 5px;/*设置DIV对象盒子四个角5像素圆角效果*/
+			}
+		</style>
+		<script>
+			mui.init();
+		</script>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav" style="background-color: #777777;">
+			<button id="leftBtn" class="mui-btn mui-btn-link mui-btn-nav mui-pull-left ">
+				<span class="mui-icon mui-icon-left-nav"></span> 东风风行
+			</button>
+			<button id="rightBtn" class="mui-btn mui-btn-link mui-btn-nav mui-pull-right">
+				<!--这里写文字-->
+				<span id="rightBtn_span" class="mui-icon mui-icon-bars"></span>
+			</button>
+			<!--<h1 class="mui-title">Title</h1>-->
+		</header>
+
+		<article class="showBodyColor">
+
+			<article>
+				<header>
+					<h3 class="title_page">景逸S50</h3>
+					<br />
+					<h4 class="title_page">欢乐红包免费抢</h4>
+					<h4 class="title_page">每天送您5次机会！</h4>
+					<br />
+				</header>
+
+				<section style="text-align: center;">
+					<img id="hongbaoImg" src="../images/hongbaoImage.png" onclick="">
+					<br />
+					<button id="openpkg_bt" class="but_center_color">打开红包</button>
+				</section>
+				<br />
+				<br />
+			</article>
+
+		</article>
+	</body>
+
+</html>
