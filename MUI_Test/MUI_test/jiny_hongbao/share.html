@@ -3,7 +3,7 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title>打开红包</title>
+		<title>分享活动</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -24,14 +24,23 @@
 				/*background-color: #777777;*/
 			}
 			.showBodyColor {
+				/*top: 20px;*/
+				
 				padding-top: 6em;
 				margin-top: 0.2em;
+				/*background-color: #FF0000;*/
+			}
+			.title_page {
 				text-align: center;
+				-webkit-text-fill-color: #FFFF00;
 			}
 			.but_center_color {
 				background-color: yellow;
 				border-radius: 5px 5px 5px 5px;
 				/*设置DIV对象盒子四个角5像素圆角效果*/
+			}
+			.label_center {
+				text-align: center;
 			}
 		</style>
 		<script>
@@ -52,36 +61,27 @@
 		</header>
 
 		<article class="showBodyColor">
-			<div style="-webkit-text-fill-color: #DDDDDD;font-weight: 900; border:3px solid #EE574F">
-				<br />
-				<div style="background-color: #CF2D28;">
-					<br />
-					<p style="font-size:40px;">恭喜您获得50元</p>
-					<br />
-					<p style="font-size:40px;">充值话费</p>
-					<br />
-				</div>
-				<br />
-			</div>
-			<br />
-			<br />
-			<br />
-			<div style="-webkit-text-fill-color: #DDDDDD; text-align:left;">
-				<p style="font-size:14px;"><span class="mui-icon mui-icon-checkmarkempty"></span>点击奖品领取奖励。</p>
-				<p style="font-size:14px;"><span class="mui-icon mui-icon-checkmarkempty"></span>点击“中奖记录”查询您的奖品</p>
-			</div>
 
-			<br />
-			<br />
-			<br />
-			<div>
-				<p>
-					<button class="but_center_color">领取奖励</button>
-				</p>
-				<p>
-					<button class="but_center_color">中奖记录</button>
-				</p>
-			</div>
+			<article>
+				<header>
+					<h1 class="title_page">景逸S50</h1>
+					<h2 class="title_page">幸福红包抢不停</h2>
+					<br />
+				</header>
+
+				<section class="label_center">
+						<br />
+						<div style="background-color: #CF2D28; -webkit-text-fill-color: #DDDDDD;width: auto;">
+							<br />
+							<!--<p style="font-size:32px;">很遗憾，差一点就中奖了！</p>-->
+							<h2>分享给朋友，可额外获得一次抢红包的机会哟！</h2>
+							<br />
+						</div>
+						<br />
+				</section>
+				<br />
+				<br />
+			</article>
 
 		</article>
 	</body>

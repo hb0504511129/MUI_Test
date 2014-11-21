@@ -3,7 +3,7 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title>打开红包</title>
+		<title>结果公布</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -24,14 +24,18 @@
 				/*background-color: #777777;*/
 			}
 			.showBodyColor {
+				/*top: 20px;*/
+				
 				padding-top: 6em;
 				margin-top: 0.2em;
-				text-align: center;
+				/*background-color: #FF0000;*/
 			}
-			.but_center_color {
-				background-color: yellow;
-				border-radius: 5px 5px 5px 5px;
-				/*设置DIV对象盒子四个角5像素圆角效果*/
+			.title_page {
+				text-align: center;
+				-webkit-text-fill-color: #FFFF00;
+			}
+			.label_center {
+				text-align: center;
 			}
 		</style>
 		<script>
@@ -52,37 +56,44 @@
 		</header>
 
 		<article class="showBodyColor">
-			<div style="-webkit-text-fill-color: #DDDDDD;font-weight: 900; border:3px solid #EE574F">
-				<br />
-				<div style="background-color: #CF2D28;">
-					<br />
-					<p style="font-size:40px;">恭喜您获得50元</p>
-					<br />
-					<p style="font-size:40px;">充值话费</p>
-					<br />
-				</div>
-				<br />
-			</div>
-			<br />
-			<br />
-			<br />
-			<div style="-webkit-text-fill-color: #DDDDDD; text-align:left;">
-				<p style="font-size:14px;"><span class="mui-icon mui-icon-checkmarkempty"></span>点击奖品领取奖励。</p>
-				<p style="font-size:14px;"><span class="mui-icon mui-icon-checkmarkempty"></span>点击“中奖记录”查询您的奖品</p>
-			</div>
-
-			<br />
-			<br />
-			<br />
-			<div>
-				<p>
-					<button class="but_center_color">领取奖励</button>
-				</p>
-				<p>
-					<button class="but_center_color">中奖记录</button>
-				</p>
-			</div>
-
+			<ul class="mui-table-view">
+				<li class="mui-table-view-cell">
+					Item 1
+					<button class="mui-btn">
+						Button
+					</button>
+				</li>
+				<li class="mui-table-view-cell">
+					Item 2
+					<button class="mui-btn mui-btn-primary">
+						Button
+					</button>
+				</li>
+				<li class="mui-table-view-cell">
+					Item 3
+					<div class="mui-switch mui-active">
+						<div class="mui-switch-handle"></div>
+					</div>
+				</li>
+				<li class="mui-table-view-cell">
+					Item 4
+					<div class="mui-switch mui-switch-blue mui-switch-mini mui-active">
+						<div class="mui-switch-handle"></div>
+					</div>
+				</li>
+				<li class="mui-table-view-cell mui-radio mui-left">
+					<input name="radio" type="radio">Item 5
+				</li>
+				<li class="mui-table-view-cell mui-radio mui-left">
+					<input name="radio" type="radio">Item 6
+				</li>
+				<li class="mui-table-view-cell mui-checkbox mui-left">
+					<input name="checkbox" type="checkbox">Item 7
+				</li>
+				<li class="mui-table-view-cell mui-checkbox mui-left">
+					<input name="checkbox" type="checkbox">Item 8
+				</li>
+			</ul>
 		</article>
 	</body>
 
