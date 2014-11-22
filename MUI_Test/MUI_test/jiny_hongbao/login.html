@@ -11,11 +11,16 @@
 		<link rel="stylesheet" href="../css/mui.min.css">
 		<script src="../js/mui.min.js"></script>
 		<script src="../js/app.js"></script>
+		<script src="../js/hongbaoApp.js"></script>
 		<style>
 			body {
 				background-color: #FF0000;
 			}
-			.mui-bar-nav~.mui-content {
+			.mui-bar-nav
+			{
+				padding: 0;
+			}
+			.mui-content {
 				padding: 0;
 			}
 			.mui-bar .mui-title {
@@ -88,7 +93,15 @@
 
 				</section>
 				<br />
+
+				<div class="mui-button-row">
+					<button type="button" id="confirm" onclick="mui.ajax()"  class="mui-btn mui-btn-primary">发送请求</button>
+					<code id="response" ></code>
+				</div>
+
 				<br />
+
+
 				<!--<br />
 				<br />-->
 				<section style="text-align: center;">
@@ -100,6 +113,8 @@
 
 				<br />
 				<br />
+
+
 			</article>
 
 			<!--<article>
